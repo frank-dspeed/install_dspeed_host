@@ -1,6 +1,7 @@
 # install_dspeed_host
 Common Install for a fresh Host
 
+```bash
 export VERSION=v11.11.0
 export DISTRO=linux-x64
 mkdir -p ~/bin
@@ -9,7 +10,7 @@ tar -xJvf node-$VERSION-$DISTRO.tar.xz
 ln -s ~/node-$VERSION-$DISTRO/bin/node ~/bin/node
 ln -s ~/node-$VERSION-$DISTRO/bin/npm ~/bin/npm
 ln -s ~/node-$VERSION-$DISTRO/bin/npx ~/bin/npx
-
+```
 
 
 #sudo mkdir -p /usr/local/lib/nodejs
